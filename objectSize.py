@@ -197,7 +197,7 @@ print("Approximate Area covered By Cars: ",TotalCarArea, "square meters")
 
 totalSize = math.floor(totalSize-TotalCarArea)
 print("Approximate Remaing Area: ",totalSize, "square meters")
-#15.6 is the approximate average
+#15.6 is the approximate average area of car
 avgCars = (totalSizmde/15.6)
 avgCars = math.floor(avgCars)
 print("Approximate Number of Cars than can be accodomated:",avgCars)
